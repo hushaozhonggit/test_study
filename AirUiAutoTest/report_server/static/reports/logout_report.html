@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>司机退出登录 </title>
+    
+    <!--[if lt IE 9]>
+    <script src="https://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link href="http://10.32.50.176:5000/static/air_report/css/report.css" rel="stylesheet">
+
+    <script src="http://10.32.50.176:5000/static/air_report/js/jquery-1.10.2.min.js"></script>
+    <script src="http://10.32.50.176:5000/static/air_report/js/jquery-lang.js" charset="utf-8" type="text/javascript"></script>
+    <script src="http://10.32.50.176:5000/static/air_report/js/langpack/zh_CN.js" charset="utf-8" type="text/javascript"></script>
+    <script src="http://10.32.50.176:5000/static/air_report/js/lazyload.js" charset="utf-8" type="text/javascript"></script>
+    <script type="text/javascript">
+      data = {"steps": [{"title": "Poco\u6ed1\u52a8", "time": 1673234581.2573671, "code": {"name": "swipe", "args": [{"key": "v1", "value": [443.0, 1136.0]}, {"key": "kwargs", "value": {"duration": 0.5, "steps": 21}}, {"key": "vector", "value": [0.0, -0.09999999999999998]}, {"key": "v2", "value": null}]}, "screen": {"src": "http:\\\\10.32.50.176:5000\\static\\logs\\logout\\1673234580293.jpg", "rect": [], "pos": [[443.0, 1136.0]], "vector": [[0.0, -127.0]], "confidence": null, "resolution": [720, 1280], "_filepath": "http:\\\\10.32.50.176:5000\\static\\logs\\logout\\1673234580293.jpg", "thumbnail": "http:\\\\10.32.50.176:5000\\static\\logs\\logout\\1673234580293_small.jpg"}, "desc": "Swipe from UIObjectProxy of \"text=\u53cd\u9988\u4e3e\u62a5&com.kyepartner.express:id/tv_text\"", "traceback": "", "log": "", "assert": null}, {"title": "Poco\u70b9\u51fb", "time": 1673234607.7498844, "code": {"name": "touch", "args": [{"key": "v", "value": [608.0, 1157.0]}, {"key": "kwargs", "value": {"duration": 0.01}}, {"key": "times", "value": 1}]}, "screen": {"src": "http:\\\\10.32.50.176:5000\\static\\logs\\logout\\1673234607553.jpg", "rect": [], "pos": [[608.0, 1157.0]], "vector": [], "confidence": null, "resolution": [720, 1280], "_filepath": "http:\\\\10.32.50.176:5000\\static\\logs\\logout\\1673234607553.jpg", "thumbnail": "http:\\\\10.32.50.176:5000\\static\\logs\\logout\\1673234607553_small.jpg"}, "desc": "Touch UIObjectProxy of \"text=\u8bbe\u7f6e&com.kyepartner.express:id/tv_text\"", "traceback": "", "log": "", "assert": null}, {"title": "Poco\u70b9\u51fb", "time": 1673234613.8490043, "code": {"name": "touch", "args": [{"key": "v", "value": [360.0, 1178.0]}, {"key": "kwargs", "value": {"duration": 0.01}}, {"key": "times", "value": 1}]}, "screen": {"src": "http:\\\\10.32.50.176:5000\\static\\logs\\logout\\1673234613650.jpg", "rect": [], "pos": [[360.0, 1178.0]], "vector": [], "confidence": null, "resolution": [720, 1280], "_filepath": "http:\\\\10.32.50.176:5000\\static\\logs\\logout\\1673234613650.jpg", "thumbnail": "http:\\\\10.32.50.176:5000\\static\\logs\\logout\\1673234613650_small.jpg"}, "desc": "Touch UIObjectProxy of \"text=\u9000\u51fa\u767b\u5f55&com.kyepartner.express:id/item_setting_logout\"", "traceback": "", "log": "", "assert": null}, {"title": "Poco\u70b9\u51fb", "time": 1673234615.9446425, "code": {"name": "touch", "args": [{"key": "v", "value": [495.0, 778.0]}, {"key": "kwargs", "value": {"duration": 0.01}}, {"key": "times", "value": 1}]}, "screen": {"src": "http:\\\\10.32.50.176:5000\\static\\logs\\logout\\1673234615748.jpg", "rect": [], "pos": [[495.0, 778.0]], "vector": [], "confidence": null, "resolution": [720, 1280], "_filepath": "http:\\\\10.32.50.176:5000\\static\\logs\\logout\\1673234615748.jpg", "thumbnail": "http:\\\\10.32.50.176:5000\\static\\logs\\logout\\1673234615748_small.jpg"}, "desc": "Touch UIObjectProxy of \"text=\u786e\u5b9a&android.widget.TextView\"", "traceback": "", "log": "", "assert": null}, {"title": "\u51fa\u73b0\u5f02\u5e38\u4e86\uff01", "time": 1673234630.4331162, "code": null, "screen": {"src": "http:\\\\10.32.50.176:5000\\static\\logs\\logout\\1673234630403.jpg", "rect": [], "pos": [], "vector": [], "confidence": null, "resolution": [720, 1280], "_filepath": "http:\\\\10.32.50.176:5000\\static\\logs\\logout\\1673234630403.jpg", "thumbnail": "http:\\\\10.32.50.176:5000\\static\\logs\\logout\\1673234630403_small.jpg"}, "desc": null, "traceback": "Traceback (most recent call last):\n  File \"D:\\Program Files\\Python39\\lib\\site-packages\\airtest\\utils\\logwraper.py\", line 122, in wrapper\n    res = f(*args, **kwargs)\n  File \"D:\\Program Files\\Python39\\lib\\site-packages\\airtest\\core\\assertions.py\", line 27, in assert_exists\n    pos = loop_find(v, timeout=ST.FIND_TIMEOUT, threshold=ST.THRESHOLD_STRICT or v.threshold)\nAttributeError: 'UIObjectProxy' object has no attribute 'threshold'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"D:\\Git_dir\\AirUiAutoTest\\base\\airtest_lib.py\", line 55, in inner\n    data = func(self)\n  File \"D:\\Git_dir\\AirUiAutoTest\\test_cases\\test_demo.py\", line 46, in test_logout\n    assert_exists(self.poco(\"com.kyepartner.express:id/title_tv\", text='\u60a8\u597d\uff0c\u6b22\u8fce\u52a0\u5165'), \"\u65ad\u8a00\u9000\u51fa\u540e\u6807\u9898\u5b58\u5728\")\n  File \"D:\\Program Files\\Python39\\lib\\site-packages\\airtest\\utils\\logwraper.py\", line 138, in wrapper\n    logger.log('function', fndata, depth=depth)\n  File \"D:\\Program Files\\Python39\\lib\\site-packages\\airtest\\utils\\logwraper.py\", line 62, in log\n    log_data = json.dumps({'tag': tag, 'depth': depth, 'time': timestamp,\n  File \"D:\\Program Files\\Python39\\lib\\json\\__init__.py\", line 234, in dumps\n    return cls(\n  File \"D:\\Program Files\\Python39\\lib\\json\\encoder.py\", line 199, in encode\n    chunks = self.iterencode(o, _one_shot=True)\n  File \"D:\\Program Files\\Python39\\lib\\json\\encoder.py\", line 257, in iterencode\n    return _iterencode(o, 0)\n  File \"D:\\Program Files\\Python39\\lib\\site-packages\\airtest\\utils\\logwraper.py\", line 38, in _dumper\n    if hasattr(obj, \"to_json\"):\n  File \"D:\\Program Files\\Python39\\lib\\site-packages\\airtest\\core\\android\\touch_methods\\touch_proxy.py\", line 29, in __getattr__\n    raise NotImplementedError(\"%s does not support %s method\" %\nNotImplementedError: MINITOUCH does not support to_json method\n", "log": "", "assert": null}], "name": "D:\\Git_dir\\AirUiAutoTest\\test_cases", "scale": 0.5, "test_result": false, "run_end": 1673234630.4331162, "run_start": 1673234580.1660662, "static_root": "http://10.32.50.176:5000/static/air_report/", "lang": "zh", "records": [], "info": {"name": "test_demo.py", "path": "D:\\Git_dir\\AirUiAutoTest\\test_cases\\test_demo.py", "author": "hushaozhong", "title": "\u53f8\u673a\u9000\u51fa\u767b\u5f55", "desc": "\u6d4b\u8bd5\u4e2a\u4f53\u53f8\u673a-\u53f8\u673a\u5f20\u9000\u51fa\u767b\u5f55"}, "log": "..\\logs\\logout\\log.txt", "console": ""};
+      lang = new Lang();
+      lang.init({
+        defaultLang: 'en',
+        currentLang: 'zh'
+      });
+    </script>
+  </head>
+
+  <body>
+
+    <div class="container-fluid">
+      <div class="row">
+        
+        <div id="main" class="main col-md-12">
+          <div id="back_multi"></div>
+          <h1 class="title">司机退出登录 自动化测试报告</h1>
+          
+          <div class="summary" >
+
+            <div class="show-vertical">
+              <div class="info info1">
+                <div class="info-left">
+                  <img id='result-img' />
+                </div>
+                <div class="info-right">
+                  <div class="info-title"><span lang='en'>报告汇总</span>
+                    <label id='result-desc' lang="en"></label>
+                  </div>
+                  <div class="info-content">
+                    <div class='info-sub start'></div>
+                    <div class='info-sub time'></div>
+                  </div>
+                  <div class="info-toal">
+                    <div class="info-step">
+                      <span class="info-name" lang="en">操作步骤: </span>
+                      <span class="info-value">5</span>
+                    </div>
+                    <div class="info-time">
+                      <span class="info-name" lang="en">测试耗时: </span>
+                      <span class="info-value duration">xxx</span>
+                    </div>
+                    
+                    
+                    <div class="info-log">
+                      <span class="info-name" lang="en">日志: </span>
+                      <span class="info-value log">
+                        <a href="..\logs\logout\log.txt" target="_blank" download="log.txt">点击下载 <img src="http://10.32.50.176:5000/static/air_report/image/download_log.svg" /></a>
+                      </span>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+
+              <div class="info info2">
+                <div class="info-left"></div>
+                <div class="info-right">
+                  <div class="info-title"><span lang='en'>执行人员</span></div>
+                  <div class="info-content">
+                    <div class="info-execute">
+                      <div class="circle-img"></div>
+                      
+                        <div class="info-name"><span lang="en">测试人员:</span> hushaozhong</div>
+                      
+                    </div>
+                    <div class="info-execute">
+                      <div class="circle-img"></div>
+                      <div class="info-file" title="D:\Git_dir\AirUiAutoTest\test_cases\test_demo.py">test_demo.py
+                        <img id="copy_path" path="D:\Git_dir\AirUiAutoTest\test_cases\test_demo.py" title="copy file path to clipboard" src="http://10.32.50.176:5000/static/air_report/image/copy.svg" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="info info3">
+              <div class="info-title" lang="en">用例描述:</div>
+              <div class="airdesc-wrap">
+                  <div class="airdesc">
+                    <div class="desc-content">测试个体司机-司机张退出登录</div>
+                    <div class="show-more"></div>
+                  </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="device" id='device'>
+          </div>
+          <!-- 可以额外显示自定义模块，支持插入Html内容 -->
+          
+          <div class="gallery">
+            <div class="info-title"><span lang="en">快捷看板</span></div>
+            <div class="content">
+            </div>
+          </div>
+
+          <!--单步-->
+          
+
+          <div class="steps">
+            <div class="content">
+              <div class="steps-head">
+                <div class="head-left">
+                  <div class="order" id='order'><span lang="en">序号</span></div>
+                  <div class="order" id='duration'><span lang="en">类别</span></div>
+                  <div class="order" id='status'><span lang="en">状态</span></div>
+                </div>
+                <div class="head-right">
+                  <span lang="en" class="jump-wrong" id='jump-wrong'>跳转到错误的步骤</span>
+                  <span lang="en">筛选:</span>
+                  <span class="filters">
+                    <span lang="en" class="filter" id="all" alt="show all steps">所有</span>
+                    <span lang="en" class="filter" id='success' alt="show success steps only">成功</span>
+                    <span lang="en" class="filter" id='fail' alt="show failed steps only">失败</span>
+                    <span lang="en" class="filter" id="assert" alt="show steps with assertion only">断言</span>
+                  </span>
+                </div>
+              </div>
+              <div class="steps-content">
+                <div class="step-left" id='step-left'>
+                  <div class="step-list"></div>
+                  <div id="pageTool"></div>
+                </div>
+                <div class="step-right" id='step-right'></div>
+              </div>
+            </div>
+            
+            </div>
+        </div>
+        
+      
+<!--      <div class="footer">-->
+<!--        <div class="footer-content">-->
+<!--          <div class="foo">-->
+<!--            <div class="interfaces">-->
+<!--              <a class="icon" href="https://github.com/AirtestProject/Airtest"  target="_blank">-->
+<!--                <img src="http://10.32.50.176:5000/static/air_report/image/Airtest.png" alt="airtest">-->
+<!--              </a>-->
+<!--              <a class="icon" href="https://github.com/AirtestProject/poco"  target="_blank">-->
+<!--                <img src="http://10.32.50.176:5000/static/air_report/image/poco.png" alt="Poco">-->
+<!--              </a>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class="foo">-->
+<!--            <div class="apps">-->
+<!--              <a class="icon ide" href="http://airtest.netease.com/"  target="_blank">-->
+<!--                <img src="http://10.32.50.176:5000/static/air_report/image/AirtestIDE.png" alt="AirtestIDE">-->
+<!--              </a>-->
+<!--              <a class="icon" href="https://airlab.163.com/"  target="_blank">-->
+<!--                <img src="http://10.32.50.176:5000/static/air_report/image/AirLab.png" alt="AirLab">-->
+<!--              </a>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class="foo">-->
+<!--            <div class="corp">-->
+<!--                <img src="http://10.32.50.176:5000/static/air_report/image/netease.png" alt="NetEase">-->
+<!--                <span lang="en">© 1997 - 2020 NetEase, Inc. All Rights Reserved.</span>-->
+<!--            </div>-->
+<!--          </div>-->
+<!--        </div>-->
+<!--      </div> -->
+      
+      </div>
+      <!-- 录屏 -->
+      <div class="row gif-wrap show">
+          <div class="menu">
+            <div class="pattern pattern1">
+              <div class="minimize">
+                <img title="minimize" src="http://10.32.50.176:5000/static/air_report/image/minimize.svg" />
+              </div>
+              <div class="close">
+                <img title="close" src="http://10.32.50.176:5000/static/air_report/image/close.svg" />
+              </div>
+            </div>
+            <div class="pattern pattern2">
+              <div class="maximize">
+                <img title="maximize" src="http://10.32.50.176:5000/static/air_report/image/maximize.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            
+          </div>
+        </div>
+        <!-- max pic -->
+      <div id='magnify' class="mask hide">
+        <div class="content">
+        </div>
+      </div>
+    </div>
+
+  <link href="http://10.32.50.176:5000/static/air_report/css/monokai_sublime.min.css" rel="stylesheet">
+  <script src="http://10.32.50.176:5000/static/air_report/js/highlight.min.js"></script>
+  <script type="text/javascript" src="http://10.32.50.176:5000/static/air_report/js/paging.js"></script>
+  <script src="http://10.32.50.176:5000/static/air_report/js/report.js"></script>
+</body>
+</html>

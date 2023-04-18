@@ -1,0 +1,34 @@
+{
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 2070,
+    "errorCount" : 6,
+    "errorPct" : 0.28985506,
+    "meanResTime" : 14.142995169082136,
+    "medianResTime" : 13.0,
+    "minResTime" : 8.0,
+    "maxResTime" : 154.0,
+    "pct1ResTime" : 19.0,
+    "pct2ResTime" : 23.0,
+    "pct3ResTime" : 38.57999999999993,
+    "throughput" : 69.14520493035374,
+    "receivedKBytesPerSec" : 172.70232331646457,
+    "sentKBytesPerSec" : 7.944809099108126
+  },
+  "www.baidu.com" : {
+    "transaction" : "www.baidu.com",
+    "sampleCount" : 2070,
+    "errorCount" : 6,
+    "errorPct" : 0.28985506,
+    "meanResTime" : 14.142995169082136,
+    "medianResTime" : 13.0,
+    "minResTime" : 8.0,
+    "maxResTime" : 154.0,
+    "pct1ResTime" : 19.0,
+    "pct2ResTime" : 23.0,
+    "pct3ResTime" : 38.57999999999993,
+    "throughput" : 69.14520493035374,
+    "receivedKBytesPerSec" : 172.70232331646457,
+    "sentKBytesPerSec" : 7.944809099108126
+  }
+}

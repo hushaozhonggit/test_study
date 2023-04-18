@@ -1,0 +1,217 @@
+2021-09-17 16:56:52,383 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-09-17 16:56:52,394 INFO o.a.j.JMeter: Loading user properties from: D:\apache-jmeter-5.4.1\bin\user.properties
+2021-09-17 16:56:52,395 INFO o.a.j.JMeter: Loading system properties from: D:\apache-jmeter-5.4.1\bin\system.properties
+2021-09-17 16:56:52,395 INFO o.a.j.JMeter: Setting JMeter property: threads=20
+2021-09-17 16:56:52,395 INFO o.a.j.JMeter: Setting JMeter property: cycle=-1
+2021-09-17 16:56:52,395 INFO o.a.j.JMeter: Setting JMeter property: ranpup=1
+2021-09-17 16:56:52,395 INFO o.a.j.JMeter: Setting JMeter property: times=30
+2021-09-17 16:56:52,403 INFO o.a.j.JMeter: Copyright (c) 1998-2021 The Apache Software Foundation
+2021-09-17 16:56:52,403 INFO o.a.j.JMeter: Version 5.4.1
+2021-09-17 16:56:52,403 INFO o.a.j.JMeter: java.version=1.8.0_181
+2021-09-17 16:56:52,403 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2021-09-17 16:56:52,403 INFO o.a.j.JMeter: os.name=Windows 10
+2021-09-17 16:56:52,403 INFO o.a.j.JMeter: os.arch=amd64
+2021-09-17 16:56:52,403 INFO o.a.j.JMeter: os.version=10.0
+2021-09-17 16:56:52,403 INFO o.a.j.JMeter: file.encoding=GBK
+2021-09-17 16:56:52,403 INFO o.a.j.JMeter: java.awt.headless=true
+2021-09-17 16:56:52,403 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-09-17 16:56:52,403 INFO o.a.j.JMeter: Available Processors =12
+2021-09-17 16:56:52,406 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-09-17 16:56:52,406 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-09-17 16:56:52,406 INFO o.a.j.JMeter: JMeterHome=D:\apache-jmeter-5.4.1
+2021-09-17 16:56:52,407 INFO o.a.j.JMeter: user.dir  =D:\EcsPerfTestProject
+2021-09-17 16:56:52,407 INFO o.a.j.JMeter: PWD       =D:\EcsPerfTestProject
+2021-09-17 16:56:56,921 INFO o.a.j.JMeter: IP: 192.168.56.1 Name: KYE-1000702870 FullName: KYE-1000702870.ky-tech.com.cn
+2021-09-17 16:56:56,926 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'D:\EcsPerfTestProject\result\baidu_demo_report_20'
+2021-09-17 16:56:56,929 INFO o.a.j.s.FileServer: Default base='D:\EcsPerfTestProject'
+2021-09-17 16:56:56,930 INFO o.a.j.s.FileServer: Set new base='D:\EcsPerfTestProject\jmx_run_template'
+2021-09-17 16:56:57,040 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2021-09-17 16:56:57,053 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2021-09-17 16:56:57,056 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2021-09-17 16:56:57,061 INFO o.a.j.s.SaveService: Loading file: D:\EcsPerfTestProject\jmx_run_template\baidu_demo_20.jmx
+2021-09-17 16:56:57,099 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-09-17 16:56:57,099 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-09-17 16:56:57,099 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-09-17 16:56:57,099 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-09-17 16:56:57,099 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-09-17 16:56:57,099 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-09-17 16:56:57,118 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2021-09-17 16:56:57,118 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-09-17 16:56:57,118 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-09-17 16:56:57,118 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-09-17 16:56:57,127 INFO o.a.j.JMeter: Creating summariser <summary>
+2021-09-17 16:56:57,131 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2021-09-17 16:56:57,131 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: D:\EcsPerfTestProject\jtl_files/jtl_baidu_demo_20.jtl
+2021-09-17 16:56:57,131 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: D:\apache-jmeter-5.4.1\bin\reportgenerator.properties
+2021-09-17 16:56:57,132 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2021-09-17 16:56:57,137 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2021-09-17 16:56:57,138 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2021-09-17 16:56:57,138 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2021-09-17 16:56:57,139 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2021-09-17 16:56:57,139 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2021-09-17 16:56:57,139 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2021-09-17 16:56:57,139 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2021-09-17 16:56:57,139 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2021-09-17 16:56:57,140 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2021-09-17 16:56:57,143 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2021-09-17 16:56:57,144 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-09-17 16:56:57,144 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2021-09-17 16:56:57,144 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2021-09-17 16:56:57,144 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2021-09-17 16:56:57,144 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2021-09-17 16:56:57,144 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-09-17 16:56:57,144 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-09-17 16:56:57,145 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-09-17 16:56:57,145 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2021-09-17 16:56:57,146 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2021-09-17 16:56:57,146 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2021-09-17 16:56:57,146 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2021-09-17 16:56:57,146 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2021-09-17 16:56:57,146 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2021-09-17 16:56:57,146 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2021-09-17 16:56:57,150 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2021-09-17 16:56:57,151 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-09-17 16:56:57,151 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2021-09-17 16:56:57,155 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2021-09-17 16:56:57,155 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2021-09-17 16:56:57,169 WARN o.a.j.r.ClassFinder: Can not open the jar D:\apache-jmeter-5.4.1\lib\ext\mqtt-xmeter-2.0.2-jar-with-dependencies.jar, message: error in opening zip file
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_181]
+	at java.util.zip.ZipFile.<init>(Unknown Source) ~[?:1.8.0_181]
+	at java.util.zip.ZipFile.<init>(Unknown Source) ~[?:1.8.0_181]
+	at java.util.zip.ZipFile.<init>(Unknown Source) ~[?:1.8.0_181]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesInOnePath(ClassFinder.java:359) [jorphan.jar:5.4.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClasses(ClassFinder.java:326) [jorphan.jar:5.4.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:299) [jorphan.jar:5.4.1]
+	at org.apache.jorphan.reflect.ClassFinder.findClassesThatExtend(ClassFinder.java:231) [jorphan.jar:5.4.1]
+	at org.apache.jmeter.engine.util.CompoundVariable.<clinit>(CompoundVariable.java:72) [ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.engine.util.ValueReplacer.<init>(ValueReplacer.java:43) [ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.engine.PreCompiler.<init>(PreCompiler.java:54) [ApacheJMeter_core.jar:5.4.1]
+	at org.apache.jmeter.engine.StandardJMeterEngine.run(StandardJMeterEngine.java:362) [ApacheJMeter_core.jar:5.4.1]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_181]
+2021-09-17 16:56:57,449 INFO o.a.j.v.b.BackendListener: ºó¶Ë¼àÌýÆ÷: Starting worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient and queue capacity: 5000
+2021-09-17 16:56:57,450 INFO o.a.j.v.b.BackendListener: ºó¶Ë¼àÌýÆ÷: Started  worker with class: class org.apache.jmeter.visualizers.backend.influxdb.InfluxdbBackendListenerClient
+2021-09-17 16:56:58,251 INFO o.a.j.JMeter: Running test (1631869018250)
+2021-09-17 16:56:58,293 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2021-09-17 16:56:58,293 INFO o.a.j.e.StandardJMeterEngine: Starting 20 threads for group Thread Group.
+2021-09-17 16:56:58,293 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2021-09-17 16:56:58,294 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=20 ramp-up=1 delayedStart=false
+2021-09-17 16:56:58,303 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2021-09-17 16:56:58,304 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2021-09-17 16:56:58,304 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2021-09-17 16:56:58,320 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = KYE-1000702870
+2021-09-17 16:56:58,326 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2021-09-17 16:56:58,349 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-2
+2021-09-17 16:56:58,364 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2021-09-17 16:56:58,369 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2021-09-17 16:56:58,369 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2021-09-17 16:56:58,385 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2021-09-17 16:56:58,386 INFO o.a.j.u.SSLManager: KeyStore created OK
+2021-09-17 16:56:58,386 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2021-09-17 16:56:58,400 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-3
+2021-09-17 16:56:58,449 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-4
+2021-09-17 16:56:58,499 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-5
+2021-09-17 16:56:58,548 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-6
+2021-09-17 16:56:58,599 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-7
+2021-09-17 16:56:58,647 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-8
+2021-09-17 16:56:58,697 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-9
+2021-09-17 16:56:58,745 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-10
+2021-09-17 16:56:58,795 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-11
+2021-09-17 16:56:58,846 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-12
+2021-09-17 16:56:58,895 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-13
+2021-09-17 16:56:58,947 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-14
+2021-09-17 16:56:58,996 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-15
+2021-09-17 16:56:59,045 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-16
+2021-09-17 16:56:59,095 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-17
+2021-09-17 16:56:59,144 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-18
+2021-09-17 16:56:59,195 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-19
+2021-09-17 16:56:59,245 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-20
+2021-09-17 16:57:00,010 INFO o.a.j.r.Summariser: summary +    413 in 00:00:02 =  235.6/s Avg:    37 Min:     9 Max:   814 Err:     1 (0.24%) Active: 20 Started: 20 Finished: 0
+2021-09-17 16:57:28,305 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-17
+2021-09-17 16:57:28,305 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-19
+2021-09-17 16:57:28,305 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-2
+2021-09-17 16:57:28,305 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-14
+2021-09-17 16:57:28,305 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-5
+2021-09-17 16:57:28,305 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-8
+2021-09-17 16:57:28,305 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-14
+2021-09-17 16:57:28,305 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-2
+2021-09-17 16:57:28,305 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-17
+2021-09-17 16:57:28,305 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-15
+2021-09-17 16:57:28,305 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-9
+2021-09-17 16:57:28,305 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-19
+2021-09-17 16:57:28,305 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-15
+2021-09-17 16:57:28,305 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-5
+2021-09-17 16:57:28,305 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-8
+2021-09-17 16:57:28,305 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-9
+2021-09-17 16:57:28,308 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-12
+2021-09-17 16:57:28,308 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-16
+2021-09-17 16:57:28,308 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-12
+2021-09-17 16:57:28,308 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-16
+2021-09-17 16:57:28,308 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-18
+2021-09-17 16:57:28,308 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-18
+2021-09-17 16:57:28,311 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-1
+2021-09-17 16:57:28,311 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-20
+2021-09-17 16:57:28,311 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-20
+2021-09-17 16:57:28,311 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2021-09-17 16:57:28,312 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-11
+2021-09-17 16:57:28,312 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-4
+2021-09-17 16:57:28,312 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-3
+2021-09-17 16:57:28,312 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-10
+2021-09-17 16:57:28,312 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-11
+2021-09-17 16:57:28,312 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-3
+2021-09-17 16:57:28,312 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-4
+2021-09-17 16:57:28,312 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-10
+2021-09-17 16:57:28,314 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-7
+2021-09-17 16:57:28,314 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-7
+2021-09-17 16:57:28,318 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-6
+2021-09-17 16:57:28,318 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-6
+2021-09-17 16:57:28,326 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-13
+2021-09-17 16:57:28,326 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-13
+2021-09-17 16:57:28,326 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2021-09-17 16:57:28,327 INFO o.a.j.v.b.BackendListener: Worker ended
+2021-09-17 16:57:28,327 INFO o.a.j.v.b.i.InfluxdbBackendListenerClient: Sending last metrics to InfluxDB
+2021-09-17 16:57:28,328 INFO o.a.j.v.b.i.HttpMetricsSender: Destroying 
+2021-09-17 16:57:28,339 INFO o.a.j.r.Summariser: summary +   8723 in 00:00:28 =  307.9/s Avg:    65 Min:     7 Max:  2827 Err:    29 (0.33%) Active: 0 Started: 20 Finished: 20
+2021-09-17 16:57:28,339 INFO o.a.j.r.Summariser: summary =   9136 in 00:00:30 =  303.6/s Avg:    64 Min:     7 Max:  2827 Err:    30 (0.33%)
+2021-09-17 16:57:28,339 INFO o.a.j.JMeter: Generating Dashboard
+2021-09-17 16:57:28,339 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2021-09-17 16:57:28,355 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2021-09-17 16:57:28,658 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2021-09-17 16:57:28,658 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2021-09-17 16:57:28,660 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2021-09-17 16:57:28,660 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2021-09-17 16:57:28,664 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2021-09-17 16:57:28,668 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2021-09-17 16:57:28,668 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2021-09-17 16:57:28,668 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2021-09-17 16:57:28,725 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2021-09-17 16:57:28,727 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2021-09-17 16:57:28,727 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2021-09-17 16:57:28,727 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2021-09-17 16:57:28,763 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2021-09-17 16:57:28,764 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 63952 samples
+2021-09-17 16:57:28,764 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2021-09-17 16:57:28,764 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2021-09-17 16:57:28,764 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2021-09-17 16:57:28,765 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2021-09-17 16:57:28,765 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2021-09-17 16:57:28,765 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2021-09-17 16:57:28,766 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2021-09-17 16:57:28,767 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2021-09-17 16:57:28,768 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2021-09-17 16:57:28,768 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2021-09-17 16:57:28,768 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 137040 samples
+2021-09-17 16:57:28,768 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 27408 samples
+2021-09-17 16:57:28,768 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 9136 samples
+2021-09-17 16:57:28,768 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 9136 samples produced in 386ms on channel 0
+2021-09-17 16:57:28,769 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2021-09-17 16:57:28,873 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary?in context
+2021-09-17 16:57:28,874 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2021-09-17 16:57:28,874 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2021-09-17 16:57:28,874 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2021-09-17 16:57:28,875 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to D:\EcsPerfTestProject\result\baidu_demo_report_20\statistics.json
+2021-09-17 16:57:28,909 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2021-09-17 16:57:28,912 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: D:\EcsPerfTestProject\result\baidu_demo_report_20
+2021-09-17 16:57:28,990 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: D:\EcsPerfTestProject\result\baidu_demo_report_20, creating folder structure
+2021-09-17 16:57:28,993 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'D:\apache-jmeter-5.4.1\bin\report-template' to 'D:\EcsPerfTestProject\result\baidu_demo_report_20', got message: D:\EcsPerfTestProject\result\baidu_demo_report_20, found non empty folder with following content [D:\EcsPerfTestProject\result\baidu_demo_report_20\statistics.json], will be ignored
+2021-09-17 16:57:29,319 INFO o.a.j.JMeter: Dashboard generated
